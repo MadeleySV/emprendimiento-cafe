@@ -1,0 +1,7 @@
+.card {
+    height: 100%; /* Establece una altura fija para las tarjetas */
+}
+
+.informacion{
+    display: inline;
+}
