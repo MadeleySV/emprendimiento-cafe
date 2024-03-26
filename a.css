@@ -5,3 +5,18 @@
 .informacion{
     display: inline;
 }
+
+.nav-nombre {
+    color: white;
+    font-family: Concert One;
+    font-size: 35px;
+}
+
+
+.card-img-top {
+    /* Estilos para la imagen */
+    width: 100%; /* Ancho al 100% del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+
