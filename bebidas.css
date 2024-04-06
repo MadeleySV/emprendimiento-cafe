@@ -254,10 +254,3 @@ h6 {
     justify-content: flex-start;
 }
 
-
-.image-text-container {
-  display: flex;
-  justify-content: flex-start;
-  border: 1px solid red;
-  text-align: right;
-}
