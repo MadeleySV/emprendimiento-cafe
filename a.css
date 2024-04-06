@@ -249,3 +249,8 @@ h6 {
     font-family: Concert One;
   }
 
+
+  .image-text-container {
+    display: flex;
+    justify-content: flex-start;
+}
