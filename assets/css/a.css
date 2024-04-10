@@ -254,3 +254,11 @@ h6 {
     display: flex;
     justify-content: flex-start;
 }
+
+
+.nav-nombre {
+  color: white;
+  font-family: Concert One;
+  font-size: 30px;
+  
+}

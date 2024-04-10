@@ -247,9 +247,13 @@ h6 {
     font-family: Concert One;
   }
 
-  .navbar-nav{
+  .nav-nombre {
+    color: white;
     font-family: Concert One;
+    font-size: 30px;
+    
   }
+ 
 
 
 
