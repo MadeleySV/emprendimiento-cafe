@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 /* probando */
+
+body {
+  background-image: url('https://chat.google.com/u/0/api/get_attachment_url?url_type=FIFE_URL&content_type=image%2Fpng&attachment_token=AOo0EEUwmsKg4oBH0MBn8ndSYMXT%2BlTU%2F4VHP65qSIea1k3xr9FqSqibI2Alk%2BNTuLIYRQFFPcUG3%2B526GQpYqX7eY8EMiT7WzytD65ieer7Yui2ccqwzAaK3va29GOGNCtA9Iu2mXt6XposJ7MaxiUW0hSEI5HyCLvEFwkEywQ9%2FqUvir9t8tZld9WRrJx08Bw8fGYB%2Bua31lwlT0Hm84BMR0GQpVXJyp0ZGrz27sAB5rvCK8mQ0cJWD3geSthhFArkNwc3Wxp4uKPDHigHpdtu6oXmGo5H5AmHcr%2F2MwR2HGM6n2dm9a%2F9j5KjB5D%2FKvtUX4lDgRYGwOY3igcSP2ahCb1s7EacEqkd%2BXXB7vbFqIKi532uYtTT5BkM6qG2EeLR97JIv0NgL4e2M1kMuHoHL5JnvD%2FJm3UQwP9POoaICpTNtc3lNfser0AaBerbjc6HiH1qnDwaEHSxEhTnzx%2F6zSKdU%2B18qhfAOoMo0LeDbk0Y%2Ba2L15E90hN4bgnH%2BRktX1OumH%2FfZaPf9EmXrtkk6cC9W2Vsi1jyADb%2F9k%2BOBql40JJdhbTJ%2FMPBh52%2F2oRbGA%3D%3D&sz=w512-k');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+}
+
+
 .informacion{
     display: inline;
 }
@@ -186,6 +194,7 @@ h6 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: white;
 }
 
 .desayuno-img {
@@ -207,4 +216,112 @@ h6 {
   color: white;
   font-family: Concert One;
   font-size: 30px;
+}
+
+
+/* agregando */
+
+
+
+.btn{
+  background-color: #af936d;
+  color: white;
+}
+
+
+.btn:hover {
+  background-color: #70573c;
+}
+
+.overflow-prueba {
+  overflow: visible;
+}
+
+.btn-agregar {
+  text-decoration:none;
+}
+
+
+.input-nombres {
+  background-color: #af936d;
+  border: #af936d;
+  width: auto;
+  height: 35px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.input-apellidos {
+  background-color: #af936d;
+  border: #af936d;
+  width: auto;
+  height: 35px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.input-dni{
+  background-color: #af936d;
+  border: #af936d;
+  width: 110px;
+  height: 35px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.input-hora {
+  background-color: #af936d;
+  border: #af936d;
+  width: 80px;
+  height: 35px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.formulario{
+  background-color: #926f4a;
+  width: 350px;
+  font-family: Concert One;
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+
+.formulario h5{
+  padding-bottom: 10px;
+}
+
+
+.factura{
+  background-color: #926f4a;
+  width: 350px;
+  font-family: Concert One;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+textarea {
+  border: 2px solid  #926f4a; 
+  border-radius: 10px; 
+  background-color:  #af936d;
+  border: 1px;
+  padding: 5px;
+  overflow-y: auto;
+  max-height: 200px; 
+  
+}
+
+.factura button{
+  background-color: #af936d;
+  color: white;
+}
+
+.factura button:hover {
+  background-color: #70573c;
+}
+
+@media (max-width: 920px) {
+  
+  
 }

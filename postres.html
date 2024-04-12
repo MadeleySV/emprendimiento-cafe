@@ -135,27 +135,35 @@
 
 <fieldset>
     <!--  -->
-      <div class="tarjeta2">
-        <div class="card">
-          <div class="card-body"   style="background-color: #715a39;">
-            <h5 class="card-title">INFORMACIÓN</h5>
-            <h6>Nombres: <input  style="background-color: #AF936D;" type="text" class="input" placeholder="..." ></h6>
-            <h6>Apellidos: <input style="background-color: #AF936D;" type="text" class="input" placeholder="..."></h6>
-            <h6>DNI: <input style="background-color: #AF936D;" type="text" class="input1" placeholder="..."> Hora: <input style="background-color: #AF936D;" type="text" class="input2" placeholder="--:--"></h6> 
-          </div>
+    <div class="tarjeta2">
+      <div class="card">
+        <div class="card-body"   style="background-color: #715a39;">
+         
+  
+          <h5 class="card-title">DATOS DEL CLIENTE</h5>
+          <h6>Nombres: <input type="text" class="input-nombres" ></h6>
+          <h6>Apellidos: <input type="text" class="input-apellidos"></h6>
+          <h6>DNI: <input type="number" class="input-dni"> Hora: <input type="text" class="input-hora" id="horaActual" readonly></h6>
+        
         </div>
-    <div>
+        <button class="btn mt-2 mb-3" id="guardarBtn">Guardar</button>
+      </div>
       <div>
-        <div class="card">
+      <div class="card">
           <div class="card-bodyy">
             <h5 class="card-title">PRODUCTOS</h5>
           
           </div>
+          <div class="card-precio">
           <h5 class="card-title">PRECIO</h5>
-
+          </div>
           <h6>TOTAL<input  style="background-color: #AF936D;" type="text" class="input" placeholder="S/." >
-        </div>
       </div>
+    </div>
+
+      <!-- agrgando summaa -->
+     
+    
       <script src="assets/js/postres.js"></script>
 </body>
 </html>
